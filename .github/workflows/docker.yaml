@@ -32,4 +32,4 @@ jobs:
         with:
           push: true
           tags: |
-            ghcr.io/${{ github.actor }}/greeter:latest
+            ghcr.io/omer0191/greeter:latest
