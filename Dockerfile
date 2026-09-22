@@ -3,5 +3,5 @@ LABEL org.opencontainers.image.authors="martin.rippin@helse-bergen.no"
 COPY pyproject.toml /usr/src/greeter/
 COPY src/ /usr/src/greeter/src/
 WORKDIR /usr/src/greeter
-pip install --no-cache-dir .
+RUN pip install --no-cache-dir .
 CMD ["greeter"]
